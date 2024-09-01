@@ -1,0 +1,72 @@
+.card {
+  width: 270px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background-color: #f0f3f3;
+  border: 20px #f7f7f7;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 10px rgba(235, 225, 225, 0.15);
+  -moz-box-shadow: 0px 0px 5px 10px rgba(235, 225, 225, 0.15);
+  box-shadow: 0px 0px 5px 10px rgba(235, 225, 225, 0.15);
+}
+
+.card img {
+  width: 230px;
+  height: 230px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.card h3 {
+  color: #208ccf;
+  font-size: 1.1rem;
+}
+.card p {
+  color: #208ccf;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 10px 0 30px;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.actions a {
+  font-size: 1.5rem;
+  height: 25px;
+  color: #fe5d42;
+  cursor: pointer;
+}
+
+.actions div {
+  display: flex;
+  align-items: center;
+}
+
+.actions div span {
+  width: 20px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.actions div button {
+  background-color: #fe5d42;
+  color: #fff;
+  border: none;
+  font-size: 1.7rem;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+  padding: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+}
